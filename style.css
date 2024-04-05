@@ -672,7 +672,7 @@ img {
 }
 
 .package_left img {
-  width: 50rem;
+  width: 550px;
   height: 35rem;
   
 }
@@ -684,6 +684,7 @@ img {
   text-align: center;
   margin-left: 6rem;
   height: -20px;
+  align-items: center;
 }
 .package_right p {
   font-size: 2rem;
@@ -695,6 +696,135 @@ img {
   flex-direction: row-reverse;
   display: flex;
 } 
+
+
+/* UPDATES */
+
+.about{
+  padding: 50px 0;
+}
+
+.catalog__wrapper h2{
+  color: var(--clr-secondary);
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.about__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+/* .about__content{
+  padding: 50px 0;
+  max-width: 300px;
+  width: 100%;
+} */
+
+.about__content h1{
+  font-weight: 700;
+  /* margin-bottom: 20rem; */
+  font-size: 70px;
+  text-align: center;
+  color: var(--clr-primary);
+  margin: 5rem;
+}
+
+.about__content p{
+  max-width: 88rem;
+  /* width: 0; */
+}
+
+/* CATALOG */
+
+.catalog{
+  padding: 50px 0;
+}
+
+.catalog__wrapper{
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-gap: 20px 0;
+}
+
+.catalog__wrapper h2{
+  display: flex;
+  gap: 3rem;
+  font-weight: 700;
+}
+
+.catalog__card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.card{
+  padding: 5rem;
+  background: var(--clr-semilight);
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--clr-dark);
+}
+
+.card h4{
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: var(--clr-dark);
+  align-content: center;
+  font-weight: 700;
+}
+
+.catalog__right ul li{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  gap: 1rem;
+}
+
+.catalog__right{
+  margin-left: 3rem;
+}
+
+/* RECENT PROJECTS */
+
+.project{
+  padding: 50px;
+}
+
+.project h2{
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 45px;
+  text-align: center;
+  color: var(--clr-primary);
+}
+
+.project__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.project__wrapper ul{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.project__wrapper img{
+  max-width: 45.5 rem;
+  width: 120rem;
+  margin-bottom: 5px;
+}
+
+
 
 /* Repeatable */
 .btn{
@@ -726,3 +856,4 @@ img {
     color: var(--clr-primary);
     
 }
+
