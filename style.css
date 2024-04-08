@@ -683,11 +683,14 @@ img {
 }
 .package_left {
   width: 500rem;
+  
 }
 
 .package_right {
-  margin-right: 2rem;
+  margin-: 2rem;
   margin-top: 3rem;
+
+
   text-align: justify;
 }
 
@@ -901,14 +904,17 @@ margin-top: 1rem;
   gap: 3rem;
 }
 
-.contactSection__form input,
+
 .contactSection__form textarea{
   border: none;
   background-color: transparent;
   width: 100%;
+  max-width: 50rem;
+  max-height: 50rem;
   border-bottom: 1px solid gray;
   padding: 1rem 2rem;
 }
+
 
 .contactSection__form button{
   margin-top: 2rem;
@@ -921,9 +927,11 @@ margin-top: 1rem;
 }
 
 .contactSection__info{
+  margin-top: 7;
   background-color: var(--clr-dark);
   color: var(--clr-light);
   padding: 2rem;
+  max-height: 30rem;
 }
 
 
